@@ -1,0 +1,33 @@
+Question 3:
+You are required to have self study for the following topic, please submit your study notes. You may be required to present the content when having an interview.
+
+Note: Can be in Chinese or English.
+
+1. What is Git and why is it used?
+    Git 是分散式版本控制系統或用於進行程式碼版本控制的指令集，常用於軟體開發時的不同版本紀錄保存，以利於開發者可以追蹤軟體開發過程所發生的變化，且往往因可記錄不同使用者對同一份程式碼進行版本變更，因此常用於多人的開發團隊。
+    因可以透過 Git 將不同程式碼儲存至不同 Repository 中，其中會包含整個專案的程式碼、記錄異動的 Metadata，因此有利於開發者快速管理不同專案的程式碼版本與變更紀錄。
+    因 Git 的盛行，目前包含像是 Github, GitLab 等不同平台更是基於 Git 程式版本紀錄的核心功能，延伸整合其他在開發生命週期中常用到的重要功能，像是Pull Request, CI/CD工具，網頁架設等。
+
+2. What is the difference between List, Dictionary, Tuple and Set in Python?
+    List, Dictionary, Tuple and Set 在 Python 中皆是用於儲存一群值的合集，不過根據以下幾點會有所差異：
+        1. 程式撰寫方式
+            List = [1,2,3]
+            Dictionary = {"key":"value", "key","value"}
+            Tuple = (1,2,3)
+            Set = set([1,2,3]) or {1,2,3}
+        2. 合集中的值是否可以變動
+            可變動 : List, Dictionary, Set
+            不可變動 : Tuple = (1,2,3)
+        3. 集合中的值是否有順序性
+            有順序性 : List, Tuple
+            無順序性 : Dictionary, Set
+        4. 合集中的值的指定取用方式
+            List, Tuple : 透過 index 從 0 開始
+            Dictionary : 透過 keys
+            Set : 本身無法指定取值，需要透過 Loop 或是轉換型態（eg. 轉為 List)
+
+    因此，綜合上述特性，可歸納使用時機如下：
+        List : 若希望有順序性，且可變動的集合
+        Dictionary : 若希望可以成對的儲存資料，或是希望可以快速取用到某個值
+        Tuple : 若希望有順序性，但不希望此集合被更動
+        Set : 若希望集合中都是獨立的唯一值
