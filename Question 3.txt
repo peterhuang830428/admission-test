@@ -5,8 +5,8 @@ Note: Can be in Chinese or English.
 
 1. What is Git and why is it used?
     Git 是分散式版本控制系統或用於進行程式碼版本控制的指令集，常用於軟體開發時的不同版本紀錄保存，以利於開發者可以追蹤軟體開發過程所發生的變化，且往往因可記錄不同使用者對同一份程式碼進行版本變更，因此常用於多人的開發團隊。
-    因可以透過 Git 將不同程式碼儲存至不同 Repository 中，其中會包含整個專案的程式碼、記錄異動的 Metadata，因此有利於開發者快速管理不同專案的程式碼版本與變更紀錄。
-    因 Git 的盛行，目前包含像是 Github, GitLab 等不同平台更是基於 Git 程式版本紀錄的核心功能，延伸整合其他在開發生命週期中常用到的重要功能，像是Pull Request, CI/CD工具，網頁架設等。
+    另外，因爲可以透過 Git 將不同程式碼儲存至不同 Repository 中，其中會包含整個專案的程式碼、記錄異動的 Metadata等，因此有利於開發者快速管理不同專案的程式碼版本與變更紀錄。
+   
 
 2. What is the difference between List, Dictionary, Tuple and Set in Python?
     List, Dictionary, Tuple and Set 在 Python 中皆是用於儲存一群值的合集，不過根據以下幾點會有所差異：
